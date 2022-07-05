@@ -83,9 +83,88 @@ a {
     display: flex;
 }
 .item1 {
-    background-color: rgb(205, 255, 238);
+    background-color: rgb(225, 255, 245);
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
+    width: 30%;
+}
+.item1:nth-child(2n) {
+    background-color: rgb(255, 219, 212);
+}
+.item1:nth-child(3n) {
+    background-color:antiquewhite;
+}
+.item1 img {
+    width: 15%;
 }
 /* DonatePlan end */
+
+/* update area start */
+.update {
+    text-align: center;
+    margin: 100px 0;
+    background-color: aliceblue;
+    padding: 100px 0;
+}
+.update h2 {
+    font-size: 40px;
+}
+.inputArea {
+    width: 50%;
+    margin: auto;
+    background-color: antiquewhite;
+    padding: 50px;
+}
+.inputArea input:nth-of-type('email') {
+    width: 50%;
+
+}
+.inputArea input {
+    padding: 5px 20px;
+}
+.inputArea input:nth-child(2n) {
+    background-color: tomato;
+    border:2px solid tomato;
+    color: antiquewhite;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+/* update area end */
+
+/* Need to suvive start */
+.suvive {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.suviveItem {
+    margin: 20px;
+    padding: 30px;
+}
+.donation2 {
+    width: 90%;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.donation2 img {
+    width: 50%;
+}
+/* Need to suvive end */
+
+/* footerArea start */
+.footerArea {
+    background-color: black;
+    text-align: center;
+    padding: 70px 0;
+}
+.footerArea h2 {
+    color: red;
+}
+.footerArea p {
+    color: gray;
+}
+/* footerArea end */
