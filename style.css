@@ -4,7 +4,7 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 /* helps information area :start */
-.DonateArea {
+#DonateArea {
     text-align: center;
     background: url(images/donation13.jpg);
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
 .flood {
     color: tomato;
 }
-.DonateArea p {
+#DonateArea p {
     color: aliceblue;
     font-size: 17;
     margin-bottom: 30px;
@@ -101,13 +101,13 @@ a {
 /* DonatePlan end */
 
 /* update area start */
-.update {
+#update {
     text-align: center;
     margin: 100px 0;
     background-color: aliceblue;
     padding: 100px 0;
 }
-.update h2 {
+#update h2 {
     font-size: 40px;
 }
 .inputArea {
@@ -133,7 +133,7 @@ a {
 /* update area end */
 
 /* Need to suvive start */
-.suvive {
+#suvive {
     width: 80%;
     margin: auto;
     display: flex;
@@ -157,15 +157,15 @@ a {
 /* Need to suvive end */
 
 /* footerArea start */
-.footerArea {
+#footerArea {
     background-color: black;
     text-align: center;
     padding: 70px 0;
 }
-.footerArea h2 {
+#footerArea h2 {
     color: red;
 }
-.footerArea p {
+#footerArea p {
     color: gray;
 }
 /* footerArea end */
